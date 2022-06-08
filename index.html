@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Latitude</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Plots</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Max_temp.html">Max Temperature</a></li>
+            <li><a class="dropdown-item" href="Cloudiness.html">Cloudniess</a></li>
+            <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="comparison.html">Comparison Page</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href = '#'>Data</a>
+        </li>
+      </ul>
+    <!-- Our rows function in containers (grid created). -->
+    <div class="container">
+
+        <!-- Our columns function in rows. -->
+        <div class="row">
+    
+          
+
+          <div class="col-lg-8">
+            <!-- This is column 1 of 3 -->
+
+             <h1>Summary: Latitude vs. X</h1>
+           <!-- <! -- <p>bceyucf vbhyuvfhvyufoshvufdsohvuifosdhvufoshvuifs vhyvfhudsovhfyusohvfuyoshvfuo uifeohwfvuioewhfvuio</p> -->
+            <div class="card mb-3" style="max-width: 1000px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="C:\Users\Owner\Desktop\GT-VIRT-DATA-PT-03-2022-U-LOL\Homeworks\11-Web\Instructions\Resources\assets\images\Fig1.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+         
+          <div class="col-lg-4" id="Visual sidebar">
+            <h1>Visualizations</h1>
+
+            <div class="row justify-content-center">
+                <div class="col-6">
+                  <a href="Max_temp.html">
+                      <img src="C:\Users\Owner\Desktop\GT-VIRT-DATA-PT-03-2022-U-LOL\Homeworks\11-Web\Instructions\Resources\assets\images\Fig1.png"  class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="humidity.html">
+                    <img src="C:\Users\Owner\Desktop\GT-VIRT-DATA-PT-03-2022-U-LOL\Homeworks\11-Web\Instructions\Resources\assets\images\Fig2.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <a href="Cloudiness.html">
+                  <img src="C:\Users\Owner\Desktop\GT-VIRT-DATA-PT-03-2022-U-LOL\Homeworks\11-Web\Instructions\Resources\assets\images\Fig3.png"  class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="wind_speed.html">
+                    <img src="C:\Users\Owner\Desktop\GT-VIRT-DATA-PT-03-2022-U-LOL\Homeworks\11-Web\Instructions\Resources\assets\images\Fig4.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+            
+          </div>
+    
+        
+    
+          <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+        </div>
+    
+    </div>
+     
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
